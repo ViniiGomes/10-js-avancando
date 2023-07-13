@@ -1,59 +1,27 @@
 body {
-    background: linear-gradient(to bottom, #51A3A3, #191970);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #FFF;
+    background: rgb(51, 80, 154);
+    font: normal 15pt Arial;
 }
-
 header {
-    text-align: center;
-    padding: 20px;
+text-align: center ;
+color: yellow
+ 
 }
-
 section {
-    background: #FFF;
-    border-radius: 10px;
-    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px black;
 }
 
 div {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 10px;
 }
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input {
-    padding: 5px;
-    font-size: 16px;
-}
-
-button {
-    background-color: #51A3A3;
-    color: #FFF;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-select {
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-}
-
 footer {
-    text-align: center;
-    color: #FFF;
-    font-style: italic;
-    padding: 20px;
+ color: red;
+ text-align: center;
+ font-style: italic;
 }
